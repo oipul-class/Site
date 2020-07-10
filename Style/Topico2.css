@@ -161,29 +161,41 @@ p{
 
 /* conteudo */
 
-  /* Modo Gráfico */
+/* Modo Gráfico */
 
   #ModoGraficoTexto {
 
-    width: 100%;
+    width: 30%;
 
-    height: 100px;
+    height: 500px;
 
     background-color: aqua;
 
+    padding-left: 60px;
+
+    padding-right: 60px;
+
     clear: both;
+
+    float: left;
+
+  }
+
+  #ModoGraficoTexto p{
+
+    font-size: 25px;
 
   }
 
     #ModoGraficoImagem{
 
-      width: 100%;
+      width: 70%;
 
       height: 500px;
 
-      padding-left: 260px;
-
     background-color: chartreuse;
+
+    float: right;
 
     }
 
@@ -203,7 +215,8 @@ p{
 
       height: 368px;
       padding-top: 20px;
-      
+      padding-bottom: 10px;
+
     }
 
       /* Trabalho com Janelas */
@@ -223,7 +236,7 @@ p{
 
         height: 438px;
         padding-top: 50px;
-
+        padding-bottom: 10px;
 
       }
 
@@ -238,21 +251,29 @@ p{
           background-color: darkorange;
         }
 
+        #ConfiguracaoDoSistemaImagem {
+
+          height: 390px;
+          padding-bottom: 10px;
+          padding-top: 10px;
+        }
+
           #FerramentasDoSistemaTexto {
 
             width: 100%;
             height: 100px;
+            padding-top: 15px;
             background-color: gold;
             clear: both;
 
           }
 
             #FerramentasDoSistemaImagem {
-          
+
             width: 100%;
             height: 500px;
             background-color: mediumseagreen;
-            
+
 
           }
 
@@ -260,8 +281,31 @@ p{
 
               width: 45%;
               height: 600px;
+              padding-top: 10px;
               background-color: midnightblue;
                 float: left;
+
+            }
+
+            #Acessorios ul{
+
+
+              color: white;
+
+              text-align: center;
+
+              font-family: arial;
+
+              font-size: 18px;
+
+
+            }
+
+            #AcessoriosImagem {
+
+              height: 315px;
+              width: 100%;
+              padding-top: 20px;
 
             }
 
@@ -273,10 +317,33 @@ p{
               float: right;
             }
 
+          #MenuDeAjudaTexto{
+            padding-left: 15px;
+
+          }
+
+          #MenuDeAjudaTexto p{
+              text-align: left;
+            }
+
+          #MenuDeAjudaTexto h2{
+              text-align: left;
+            }
+
+
+
+            #MenuDeAjudaImagem {
+
+              height: 475px;
+              padding-top: 80px;
+              padding-bottom: 0px;
+
+            }
+
             #GerenciamentoDeArquivos {
 
               width: 40%;
-              height: 600px;
+              height: 500px;
               background-color: khaki;
               float: left;
             }
@@ -284,42 +351,34 @@ p{
             #UsuariosEPermissoes {
 
               width: 60%;
-              height: 600px;
+              height: 500px;
               background-color: indigo;
               float: right;
             }
 
             #InicializacaoFinalizacao {
 
-              width: 30%;
-              height: 600px;
+              width: 40%;
+              height: 500px;
               background-color: indianred;
+              clear: both;
               float: left;
-
-            }
-
-             #InicializacaoFinalizacaoImagem {
-              
-               width: 70%;
-               height: 600px;
-               background-color: palegreen;
-               float: right;
 
             }
 
             #InstalacaoMaquinaVirtual {
 
-              width: 60%;
-              height: 800px;
+              width: 35%;
+              height: 500px;
               background-color: lightskyblue;
               float: left;
             }
 
             #InstalacaoMaquinaVirtualImagem {
 
-              width: 40%;
-              height: 800px;
-              background-color: seagreen;
+              width: 25%;
+              height: 500px;
+              background-color: lightskyblue;
               float: right;
 
             }
@@ -327,17 +386,9 @@ p{
             #Pacotes{
 
               width: 30%;
-              height: 600px;
+              height: 500px;
               background-color: darkslategray;
-              float: left;
-
-            }
-
-            #PacotesImagem {
-
-              width: 30%;
-              height: 600px;
-              background-color: hotpink;
+              clear: both;
               float: left;
 
             }
@@ -345,26 +396,17 @@ p{
             #Atualização {
 
               width: 40%;
-              height: 600px;
+              height: 500px;
               background-color: khaki;
               float: left;
             }
-            
+
             #Programas {
 
-              width: 55%;
-              height: 800px;
+              width: 30%;
+              height: 500px;
               float: left;
               background-color: fuchsia;
-            }
-
-            #ProgramasImagem {
-
-
-              width: 45%;
-              height: 800px;
-              float: right;
-              background-color: lime;
             }
 
   /* rodapé */
