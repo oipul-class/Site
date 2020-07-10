@@ -169,7 +169,7 @@ p{
 
     height: 500px;
 
-    background-color: aqua;
+    background-color: rgba(86, 86, 86, 0.5);
 
     padding-left: 60px;
 
@@ -180,6 +180,7 @@ p{
     float: left;
 
   }
+
 
   #ModoGraficoTexto p{
 
@@ -207,7 +208,8 @@ p{
       height: 600px;
       float: left;
       padding-top: 25px;
-      background-color: red;
+      margin-top: 10px;
+      background-color: rgba(128, 121, 121, 0.5);
 
     }
 
@@ -226,8 +228,9 @@ p{
         width: 40%;
         height: 600px;
         padding-top: 25px;
+        margin-top: 10px;
         float: left;
-        background-color: darkorchid;
+        background-color: rgba(151, 149, 149, 0.5);
 
       }
 
@@ -247,8 +250,9 @@ p{
           width: 30%;
           height: 600px;
           padding-top: 25px;
+          margin-top: 10px;
           float: left;
-          background-color: darkorange;
+          background-color:  rgba(128, 121, 121, 0.5);
         }
 
         #ConfiguracaoDoSistemaImagem {
@@ -263,7 +267,7 @@ p{
             width: 100%;
             height: 100px;
             padding-top: 15px;
-            background-color: gold;
+            background-color: rgba(151, 149, 149, 0.5);
             clear: both;
 
           }
@@ -282,7 +286,8 @@ p{
               width: 45%;
               height: 600px;
               padding-top: 10px;
-              background-color: midnightblue;
+              margin-top: 10px;
+              background-color: rgba(206, 206, 206, 0.5);
                 float: left;
 
             }
@@ -291,6 +296,8 @@ p{
 
 
               color: white;
+
+              list-style: none;
 
               text-align: center;
 
@@ -313,7 +320,8 @@ p{
 
               width: 55%;
               height: 600px;
-              background-color: darkkhaki;
+              margin-top: 10px;
+              background-color: rgba(183, 183, 183, 0.5);
               float: right;
             }
 
@@ -334,62 +342,146 @@ p{
 
             #MenuDeAjudaImagem {
 
-              height: 475px;
-              padding-top: 80px;
-              padding-bottom: 0px;
+              height: 455px;
+              padding-top: 30px;
 
             }
 
             #GerenciamentoDeArquivos {
 
-              width: 40%;
+              width: 20%;
               height: 500px;
-              background-color: khaki;
+              margin-top: 10px;
+              background-color: rgba(206, 206, 206, 0.5);
               float: left;
             }
+
+            #GerenciamentoDeArquivosImagem {
+
+              width:20%;
+              height: 500px;
+              margin-top: 10px;
+              background-color: red;
+              float: left;
+
+
+            }
+
 
             #UsuariosEPermissoes {
 
               width: 60%;
-              height: 500px;
-              background-color: indigo;
+              height: 250px;
+              padding-left: 20px;
+              padding-right: 20px;
+              margin-top: 10px;
+              background-color: rgba(119, 110, 110, 0.5);
               float: right;
+            }
+
+            #UsuariosEPermissoes p, #UsuariosEPermissoes2 p{
+
+              font-size: 17px;
+
+            }
+
+            #UsuariosEPermissoes2 {
+
+              width: 35%;
+              height: 250px;
+              padding-top: 10px;
+              padding-left: 30px;
+              padding-right: 30px;
+              background-color: rgba(86, 84, 84, 0.5);
+              float: left;
+
+            }
+
+            #UsuariosEPermissoesImagem {
+
+              float: right;
+              width: 25%;
+              height: 250px;
+
             }
 
             #InicializacaoFinalizacao {
 
               width: 40%;
               height: 500px;
-              background-color: indianred;
+              padding-left: 40px;
+              padding-right: 40px;
+              padding-top: 10px;
+              margin-top: 10px;
+              background-color: rgba(160, 160, 160, 0.5);
               clear: both;
               float: left;
 
-            }
-
-            #InstalacaoMaquinaVirtual {
-
-              width: 35%;
-              height: 500px;
-              background-color: lightskyblue;
-              float: left;
             }
 
             #InstalacaoMaquinaVirtualImagem {
 
               width: 25%;
               height: 500px;
-              background-color: lightskyblue;
-              float: right;
+              margin-top: 10px;
+              background-color: blue;
+              float: left;
 
             }
+
+
+
+            #InstalacaoMaquinaVirtual {
+
+              width: 35%;
+              height: 500px;
+              padding-left: 25px;
+              padding-right: 20px;
+              margin-top: 10px;
+              background-color:  rgba(160, 160, 160, 0.5);
+              float: right;
+            }
+
+            #InstalacaoMaquinaVirtual p{
+
+              font-size: 16px;
+
+            }
+
+            #InstalacaoMaquinaVirtual ol{
+
+
+              color: white;
+
+              font-family: arial;
+
+
+            }
+
+            #InstalacaoMaquinaVirtual h2{
+
+              font-size: 28px;
+            }
+
 
             #Pacotes{
 
               width: 30%;
               height: 500px;
-              background-color: darkslategray;
+              background-color:  rgba(71, 71 71, 0.5);
+              padding-left: 70px;
+              padding-right: 70px;
+              margin-top: 10px;
               clear: both;
               float: left;
+
+            }
+
+            #Pacotes a:link{
+
+              text-decoration: underline;
+              color: blue;
+
 
             }
 
@@ -397,7 +489,10 @@ p{
 
               width: 40%;
               height: 500px;
-              background-color: khaki;
+              background-color: rgba(119, 110, 110, 0.5);
+              padding-left: 60px;
+              padding-right: 60px;
+              margin-top: 10px;
               float: left;
             }
 
@@ -405,8 +500,60 @@ p{
 
               width: 30%;
               height: 500px;
+              margin-top: 10px;
+              padding-left: 60px;
+              padding-right: 60px;
               float: left;
-              background-color: fuchsia;
+              background-color: rgba(71, 71 71, 0.5);
+            }
+
+            #Programas2 {
+
+              width: 55%;
+
+              height: 500px;
+
+              float: left;
+
+              background-color: rgba(168, 168, 168, 0.5);
+
+            }
+
+            #Programas2Texto {
+
+              width: 100%;
+              height: 40%;
+
+              padding-top: 20px;
+              padding-left: 20px;
+              padding-right: 20px;
+
+            }
+
+            #Programas2Texto p {
+
+              font-size: 18px;
+            }
+
+
+            #Programas2Imagem {
+
+              width: 100%;
+              height: 60%;
+              background-color: black;
+
+            }
+
+
+            #Programas2Imagem2 {
+
+              width: 45%;
+
+              height: 500px;
+
+              float: right;
+
+              background-color: red;
             }
 
   /* rodapé */
@@ -423,7 +570,7 @@ p{
     height: 200px;
     width: 750px;
     float: left;
-    clear: both; 
+    clear: both;
     padding-top: 10px;
 }
 
@@ -510,7 +657,7 @@ p{
  height: inherit;
  width: inherit;
  background-color: cyan;
-  
+
 }
 .Coluna1Titulo{
   text-align: left;
@@ -521,7 +668,7 @@ p{
   height: 540px;
   width:400px;
   background-color: cyan;
-} 
+}
 #HistoriaImagens{
   float: left;
   height: 540px;
@@ -533,3 +680,4 @@ p{
   width: 1300px;
   background-color: olive;
 }
+
