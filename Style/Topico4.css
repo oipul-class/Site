@@ -1,223 +1,257 @@
 /* CSS RESET*/
 
 *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 /* fonts */
 
 @font-face{
-  font-family: Blocks;
-  src: url(../Fonts/Topico1/VCR.ttf);
+font-family: Writer;
+src: url(../Fonts/Topico4/Typewriter.ttf);
 }
 
 /* regras globais */
 
 #body {
-  background-image: url(../images/FundoDoTopico1.jpg);
-  background-size: cover;
-  background-repeat: none;
+background-color: white;
 }
 
 a {
-  text-decoration: none;
+text-decoration: none;
 }
 
 a:visited, a:link, a:active {
-  color: inherit;
+color: inherit;
 }
 
-h1, h2{
-  
-  font-size: 50px;
+h1, h2,h3 {
+  font-size: 40px;
   font-weight: bold;
   text-align: center;
-  color:white;
-  font-family: arial;
+  color: black;
+  font-family: Writer, Arial;
+  letter-spacing: 10px;
+  
 }
 
 h2{
-  
-  font-size: 30px;
-  
+font-size: 30px;
+}
+
+h3{
+font-size: 19px;
 }
 
 p{
-
   font-size: 20px;
-
-  font-family: arial;
-
+  line-height: 25px;
+  font-family: Blocks, Arial;
   text-align: center;
-
-  color: white;
+  color: black;
 
 }
 
+li {
+  list-style: none;
+}
 /* fontes */
 
 
 .MenuFont {
-    font-size: 15px;
-    font-family: Blocks;
-    color: white;
+  font-size: 15px;
+  font-family: Blocks;
+  color: white;
 }
 
 /* padrões */
 .Conteudo {
-    width: 1300px;
-    height: inherit;
-    margin-left: auto;
-    margin-right: auto;
+  width: 1300px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .CenterOBJ {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*--Partes do site*/
-
+#DivDeTodosOsConteudo {
+  padding-top: 250px; 
+}
 /* -Header- */
 
 #Header {
-    width: 100%;
-    height: 160px;
-    background-color: rgba(0, 159, 187, 0.7);
+  width: 100%;
+  height: 160px;
+  background-color: rgba(0, 159, 187, 0.7);
+  position: fixed;
 }
 
 #Header_logo {
-    height: 156px;
-    width: 710px;
-    float: left;
-    clear: both; 
-    padding-top: 10px;
+  height: 156px;
+  width: 510px;
+  float: left;
+  padding-top: 10px;
+  
 }
 
 #Header_LogoIMG {
-    height: 140px;
-    width: 350px;
-    margin-left: 350px;
+  height: 140px;
+  width: 350px;
+  margin-left: 150px;
 }
 
 #Header_Menus {
-    height: 90px;
-    width: 590px;
-    float: right;
-    margin-top: 45px;
-    border: solid 2px black;
+  height: 90px;
+  width: 590px;
+  float: right;
+  margin-top: 45px;
+  border: solid 2px black;
 }
 
 #OnSite {
-  width: 90px;
-  height: 50px;
-  padding-top: 12px;
-  list-style: none;
-  cursor: default;
-  text-align: center;
-  background-color: rgba(66, 66, 66, 0.7);
-  float: left;
-  margin-left: 22px;
-  margin-top: 20px;
-  transition: 0.15s;
-  border: solid 1px blue;
-  border-radius: 8px;
+width: 90px;
+height: 50px;
+padding-top: 12px;
+cursor: default;
+text-align: center;
+background-color: rgba(66, 66, 66, 0.7);
+float: left;
+margin-left: 22px;
+margin-top: 20px;
+transition: 0.15s;
+border: solid 1px blue;
+border-radius: 8px;
 }
 
 .Menu {
-  width: 90px;
-  height: 50px;
-  padding-top: 12px;
-  list-style: none;
-  text-align: center;
-  float: left;
-  background-color: rgba(66, 66, 66, 0.7);
-  margin-left: 22px;
-  margin-top: 20px;
-  transition: 0.15s;
-  border: solid 1px white;
-  border-radius: 8px;
-  text-decoration: none;
+width: 90px;
+height: 50px;
+padding-top: 12px;
+text-align: center;
+float: left;
+background-color: rgba(66, 66, 66, 0.7);
+margin-left: 22px;
+margin-top: 20px;
+transition: 0.15s;
+border: solid 1px white;
+border-radius: 8px;
+text-decoration: none;
 }
 
 .Menu:hover {
-  width: 100px;
-  height: 70px;
-  padding-top: 23px;
-  cursor: pointer;
-  background-color: white;
-  color: black;
-  border: solid 1px black;
-  margin-top: 9px;
+width: 100px;
+height: 70px;
+padding-top: 23px;
+cursor: pointer;
+background-color: white;
+color: black;
+border: solid 1px black;
+margin-top: 9px;
 }
 
 .Menu:active {
-  background-color: rgb(95, 95, 95);
+background-color: rgb(95, 95, 95);
+}
+/*Menu De Navegação*/
+
+#MenuNavegacao {
+  height: 158px;
+  width: 198px;
+  float: left;
+  border: solid 1px black;
+  border-radius: 10px;
 }
 
-/* conteudo */
+@keyframes NavSelect {
+  0% {background-color: black;}
+  50% {background-color: grey;}
+  100% {background-color: black;}
+}
 
-  /* rodapé */
+.SeletoresDeNavegacao {
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  margin-top: 5px;
+  border-radius: 15px;
+}
+
+.SeletoresDeNavegacao:hover {
+  animation-name: NavSelect;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+/* conteudo */
+#Titulo {
+
+}
+/* rodapé */
 
 #Rodape {
-    width: 100%;
-    height: 200px;
-    background-color: rgba(0, 159, 187, 0.7);
-
-    clear: both;
+  width: 100%;
+  height: 200px;
+  background-color: rgba(0, 159, 187, 0.7);
+  
+  clear: both;
 }
 
 #Rodape_logo {
-    height: 200px;
-    width: 750px;
-    float: left;
-    clear: both; 
-    padding-top: 10px;
+  height: 200px;
+  width: 750px;
+  float: left;
+  clear: both; 
+  padding-top: 30px;
 }
 
 #Rodape_LogoIMG {
-    height: 140px;
-    width: 350px;
-    margin-left: 440px;
-    float: left;
-    clear: both;
+  height: 140px;
+  width: 350px;
+  margin-left: 440px;
+  float: left;
+  clear: both;
 }
 
 #Rodape_Users {
-    height: 200px;
-    width: 250px;
-    float: right;
+  height: 200px;
+  width: 250px;
+  float: right;
 }
 
 #Gab {
-  float: left;
-  clear: both;
+float: left;
+clear: both;
 }
 
 #Luc {
-  float: left;
+float: left;
 }
 
 #Caio {
-  clear: both;
-  background-color: white;
-  float: left;
+clear: both;
+background-color: white;
+float: left;
 }
 
 #Joh {
-  background-color: white;
+background-color: white;
 }
 
 .User_Icon {
-  height: 80px;
-  width: 80px;
-  border-radius: 100%;
-  margin: 10px;
-  transition: 0.5s;
+height: 80px;
+width: 80px;
+border-radius: 100%;
+margin: 10px;
+transition: 0.1s;
 }
 
 .User_Icon:hover {
-  border: solid 4px blue;
-  cursor: pointer;
+border: solid 4px blue;
+cursor: pointer;
 }
