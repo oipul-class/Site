@@ -1,11 +1,17 @@
-/*Importe de uma fonte externa para o projeto*/
+/* CSS RESET*/
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* fonts */
+
 @font-face{
-    /*Nome que vc criará para a fonte*/
-    font-family: storyboo;
-    src: url(../fonts/Storyboo.TTF);
+font-family: Writer;
+src: url(../Fonts/Topico4/Typewriter.ttf);
 }
 
-<<<<<<< HEAD
 /* regras globais */
 
 #body {
@@ -37,70 +43,8 @@ font-size: 30px;
 h3{
 font-size: 19px;
 }
-=======
-/*Reset do CSS*/
->>>>>>> db915cfc77cfcadb7e1095061cca8a2d19d7df86
 
-/*
-    Seletor universal (*) - aplica uma formatação para todos os elementos HTML
-*/
-*{
-    margin: 0px;
-    padding: 0px;
-    
-    /*Permite travar a caixa para ela não alterar o tamanho (padding)*/
-    box-sizing: border-box;
-    
-}
-
-/*CLASSES GLOBAIS DO SITE*/
-
-.conteudo{
-    width: 1300px; /*Largura do site*/
-    height: inherit; /*Herda do elemento pai a altura do elemento*/
-    padding-top: 10px;
-
-}
-
-/*Centraliza um elemento HTML no meio da tela*/
-.centerObject{
-    
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-/*Prende os elementos para não se alterarem com o zoom*/
-.alturaAutomatica{
-    height: auto;
-    overflow: hidden;
-}
-/*Configurações do fundo*/
-.backgroundImg{
-    /*Permite trabalhar com a repetição da imagem
-        (no-repeat, repeat, repeat-x, repeat-y, round e space)
-    */
-    background-repeat: no-repeat;
-    
-    /*Permite alinhar a imagem 
-    (horizontal [left, center, right] e 
-    vertical [top, center, bottom])*/
-    background-position: center;
-    
-    /*Permite trabalhar com o tamanho da imagem, podendo ser colocado em pixel ou usando: 
-    contain(coloca a imagem de um tamanho original para ela caber na div, mas pode sobrar espaço)
-    
-    cover(coloca a imagem totalmente dentro da div, aplicando zoom para não perder qualidade)
-    */
-    background-size: cover;
-    
-    /*Fixa a imagem de fundo para travar na rolagem da página*/
-    background-attachment: fixed;
-    
-}
-
-/* Padronização para os textos do site */
 p{
-<<<<<<< HEAD
   margin-top: 10px;
   font-size: 20px;
   line-height: 25px;
@@ -112,218 +56,133 @@ p{
 
 li {
   list-style: none;
-=======
-    font-family: verdana;
-    font-size: 18px;
-    color: #000000;
-    line-height: 1.5;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
+}
+/* fontes */
+
+
+.MenuFont {
+  font-size: 15px;
+  font-family: Blocks;
+  color: white;
 }
 
-h1, h2{
-    font-family: storyboo;
-    font-size: 28px;
-    color: #000000;
-    width: 100%;
-    height: 50px;
-    padding-top: 8px;
-    padding-left: 10px;
-    letter-spacing: 5px;
-    margin-bottom: 20px;
-    text-align: left;
-    text-transform: uppercase;
-    
->>>>>>> db915cfc77cfcadb7e1095061cca8a2d19d7df86
+/* padrões */
+.Conteudo {
+  width: 1300px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-h2{
-    font-family: arial;
-    font-size: 24px;
-    text-transform: none;
- }
-
-a:active{
-    color: #ffffff;
-    text-decoration: none;
-    
-}
-a:link{
-    color: #ffffff;
-    text-decoration: none;
-    
-}
-a:visited{
-    color: #ffffff;
-    text-decoration: none;
-    
-}
-/*SEÇÃO DO HEADER*/
-
-#header{
-    width: 100%;
-    height: 80px;
-    background-color: #000000;
-    /*Permite fixar um elemento na tela*/
-    position: fixed;
+.CenterOBJ {
+  margin-left: auto;
+  margin-right: auto;
 }
 
+/*--Partes do site*/
+#DivDeTodosOsConteudo {
+  padding-top: 250px; 
+}
+/* -Header- */
 
-#logo{
-    width: 250px;
-    height: 60px;
-    background-color: aquamarine;
-    float: left;
- 
+#Header {
+  width: 100%;
+  height: 160px;
+  background-color: rgba(0, 159, 187, 0.7);
+  position: fixed;
 }
 
-#menuContainer{
-    width: 600px;
-    height: 60px;
-    float: right;
+#Header_logo {
+  height: 156px;
+  width: 510px;
+  float: left;
+  padding-top: 10px;
+  
 }
 
-#menu{
-    width: 500px;
-    height: 60px;
-
-     
+#Header_LogoIMG {
+  height: 140px;
+  width: 350px;
+  margin-left: 150px;
 }
 
-.menuItens{
-    width: 120px;
-    height: 50px;
-    float: left;
-    margin-right: 5px;
-    text-align: center;
-    padding-top: 15px;
-    font-family: verdana;
-    font-size: 16px;
-    letter-spacing: 3px;
-    color: #ffffff;
-    
-    /*Permite alterar o icone da lista, podendo colcoar até uma imagem externa*/
-    /*    list-style: url(../icones/smile3.png);*/
-    list-style: none;
-    
-    /*
-    Alterna se o icone ficar dentro ou fora da (li)
-    */
-    list-style-position: inside;
-   
-
+#Header_Menus {
+  height: 90px;
+  width: 590px;
+  float: right;
+  margin-top: 45px;
+  border: solid 2px black;
 }
 
-/*Cria uma ação quando o mouse for posicionado sobre o elemento*/
-.menuItens:hover{
-    background-color: chartreuse;
-    cursor: pointer;
-    color: #000000;
-    border-radius: 20px;
-    
-    /*Permite criar um delay entre a transição do elemento*/
-    transition: 2s;
+#OnSite {
+width: 90px;
+height: 50px;
+padding-top: 12px;
+cursor: default;
+text-align: center;
+background-color: rgba(66, 66, 66, 0.7);
+float: left;
+margin-left: 22px;
+margin-top: 20px;
+transition: 0.15s;
+border: solid 1px blue;
+border-radius: 8px;
 }
 
-    /*formatação de links igual no HTML (alink, vlink, link)*/
-    /*
-    a:link{
-        color: red;
-    }
-
-    a:visited{
-        color: aquamarine;
-    }
-    a:active{
-        color: blueviolet;
-    }
-    */
-
-/*SEÇÃO DO BANNER*/
-
-#banner{
-    width: 100%;
-    height: 1000px;
-    background-color: RGBA(13, 196, 217,0.7);
-    
-    /*Coloca imagem de fundo*/
-    background-image: url(../imagens/fundo.jpg);
-    
-    
-    padding-top: 350px;
+.Menu {
+width: 90px;
+height: 50px;
+padding-top: 12px;
+text-align: center;
+float: left;
+background-color: rgba(66, 66, 66, 0.7);
+margin-left: 22px;
+margin-top: 20px;
+transition: 0.15s;
+border: solid 1px white;
+border-radius: 8px;
+text-decoration: none;
 }
 
-#bannerTexto{
-    width: 600px;
-    height: 250px;
-    
-    /*Para deixar a caixa transparente devemos utilizar o RGB(A) alpha que permite ajustar a intensidade da cor */
-    background-color: RGBA(13, 196, 217,0.8);
-   
-
+.Menu:hover {
+width: 100px;
+height: 70px;
+padding-top: 23px;
+cursor: pointer;
+background-color: white;
+color: black;
+border: solid 1px black;
+margin-top: 9px;
 }
 
-/*Estamos alterando a formatação do p somente da bannerTexto, utilizando o processo de hierarquia de elementos*/
-#bannerTexto p{
-    color: #ffffff;
-    font-size: 23px;
+.Menu:active {
+background-color: rgb(95, 95, 95);
+}
+/*Menu De Navegação*/
+
+#MenuNavegacao {
+  height: 158px;
+  width: 198px;
+  float: left;
+  border: solid 1px black;
+  border-radius: 10px;
 }
 
-/*Seção Sobre a Firma*/
-#sobre{
-    width: 100%;
-    min-height: 500px;
-    background-color: #fcde8b;
-    padding-bottom: 20px;
+@keyframes NavSelect {
+  0% {background-color: black;}
+  50% {background-color: grey;}
+  100% {background-color: black;}
 }
 
-#sobre h1{
-    text-align: center;
+.SeletoresDeNavegacao {
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  margin-top: 5px;
+  border-radius: 15px;
 }
 
-/*Seção Produtos da Empresa*/
-
-#produto{
-    width: 100%;
-    min-height: 700px;
-    background-color: #75bdba;
-}
-
-/*Compartilhamento de código*/
-#produtoTexto, #produtoImagem {
-    width: 700px;
-    /* Altura minima para a caixa*/
-    min-height: 600px;
-    /*Altura automática, caso o conteudo seja maior que a div */
-    height: auto;
-    /*Manipulação da barra de rolagem
-    auto - serve para colocar a rolagem se for necessário
-    scroll - força a barra de rolagem (vertical e horizontal)
-    hidden - força a caixa a aumentar o tamanho conforme o conteudo*/
-    overflow: hidden;
-    background-color: bisque;
-    float: left;
-    margin-right: 50px;
-}
-
-#produtoTexto p{
-    text-align: justify;
-}
-
-#produtoImagem{
-    width: 500px;
-}
-
-#produtoImagem img{
-    width: inherit;
-    height: inherit;
-    border-radius: 50%;
-}
-
-<<<<<<< HEAD
 .SeletoresDeNavegacao:hover {
   animation-name: NavSelect;
   animation-duration: 3s;
@@ -367,62 +226,65 @@ a:visited{
   border: solid 1px black;
 }
 /* rodapé */
-=======
 
-/*Seção de servicos*/
->>>>>>> db915cfc77cfcadb7e1095061cca8a2d19d7df86
-
-#servicos{
-    width: 100%;
-    height: 600px;
-    background-image: url(../imagens/fundo2.jpg)
-    
-    
+#Rodape {
+  width: 100%;
+  height: 200px;
+  background-color: rgba(0, 159, 187, 0.7);
+  
+  clear: both;
 }
 
-.servicoConteudo{
-    width: 380px;
-    height: 400px;
-    background-color: RGBA(255,255,255,0.8);
-    float: left;
-    margin-right: 50px;
-    border-bottom-right-radius: 30px;
-}
-.servicoConteudo h2{
-    text-align: center;
-    background-color: black;
-    color: #ffffff;
-}
-.servicoIcone{
-    width: 100px;
-    height: 100px;
-    background-color: antiquewhite;
-}
-.servicoIcone img{
-    width: inherit;
-    height: inherit;
-    }
-
-.servicoDetalhes{
-    width: 120px;
-    height: 50px;
-    background-color: black;
-    margin-left: auto;
-    margin-right: 20px;
-    text-align: center;
-    font-family: verdana;
-    color: aliceblue;
-    padding-top: 10px;
-    font-weight: bold;
-    border-radius: 10px; 
-}
-.servicoDetalhes:hover{
-    background-color: cadetblue;
-    color: aliceblue;
-    transition: 0.2s;
-    cursor: pointer;
+#Rodape_logo {
+  height: 200px;
+  width: 750px;
+  float: left;
+  clear: both; 
+  padding-top: 30px;
 }
 
+#Rodape_LogoIMG {
+  height: 140px;
+  width: 350px;
+  margin-left: 440px;
+  float: left;
+  clear: both;
+}
 
+#Rodape_Users {
+  height: 200px;
+  width: 250px;
+  float: right;
+}
 
+#Gab {
+float: left;
+clear: both;
+}
 
+#Luc {
+float: left;
+}
+
+#Caio {
+clear: both;
+background-color: white;
+float: left;
+}
+
+#Joh {
+background-color: white;
+}
+
+.User_Icon {
+height: 80px;
+width: 80px;
+border-radius: 100%;
+margin: 10px;
+transition: 0.1s;
+}
+
+.User_Icon:hover {
+border: solid 4px blue;
+cursor: pointer;
+}
