@@ -27,7 +27,7 @@ color: inherit;
 }
 
 h1, h2,h3 {
-  font-size: 40px;
+  font-size: 45px;
   font-weight: bold;
   text-align: center;
   color: black;
@@ -45,9 +45,10 @@ font-size: 19px;
 }
 
 p{
+  margin-top: 10px;
   font-size: 20px;
   line-height: 25px;
-  font-family: Blocks, Arial;
+  font-family: Writer, Arial;
   text-align: center;
   color: black;
 
@@ -189,8 +190,40 @@ background-color: rgb(95, 95, 95);
   animation-timing-function: linear;
 }
 /* conteudo */
+/*--Titulo */
 #Titulo {
+  height: 50px;
+  width: 1300px;
+}
+/*--Definição */
+#Definiao {
+  width: 1300px;
+  height: 100px;
+}
+/*--Formatações */
+#Formatacoes {
+  height: 700px;
+  width: 1300px;
+  margin-top: 50px;
+}
+#TituloFormatacoes {
+  width: 1300px;
+  height: 100px;
+}
+/* #TextoFormatacoes h1 { */
+  /* font-size: ; */
+/* } */
 
+#OpcoesFormatacoes {
+  width: 860px;
+  height: 700px;
+  margin-top: 50px;
+}
+.FormatacoesCaixa {
+  float: left;
+  height: 280px;
+  width: 430px;
+  border: solid 1px black;
 }
 /* rodapé */
 
