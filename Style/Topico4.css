@@ -183,13 +183,16 @@ background-color: rgb(95, 95, 95);
 }
 /*--Formatações */
 #Formatacoes {
-  height: 400px;
+  height: 470px;
   margin-bottom: 30px;
+  border-radius: 5px;
   width: 600px;
   margin-right: 50px;
   margin-top: 50px;
   float: left;
   clear: both;
+  border: solid 1px black;
+  padding-left: 35px;
 }
 
 #Formatacoes h1 {
@@ -212,9 +215,12 @@ background-color: rgb(95, 95, 95);
 
 #Insercao {
   margin-top: 50px;
-  height: 400px;
+  height: 470px;
   width: 650px;
   float: left;
+  border: solid 1px black;
+  border-radius: 5px;
+  padding-left: 35px;
 }
 #Insercao h1 {
   font-size: 20px;
