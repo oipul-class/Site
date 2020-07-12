@@ -94,7 +94,7 @@ li {
 
 #Header_logo {
   height: 156px;
-  width: 510px;
+  width: 710px;
   float: left;
   padding-top: 10px;
   
@@ -103,7 +103,7 @@ li {
 #Header_LogoIMG {
   height: 140px;
   width: 350px;
-  margin-left: 150px;
+  margin-left: 350px;
 }
 
 #Header_Menus {
@@ -160,35 +160,6 @@ background-color: rgb(95, 95, 95);
 }
 /*Menu De Navegação*/
 
-#MenuNavegacao {
-  height: 158px;
-  width: 198px;
-  float: left;
-  border: solid 1px black;
-  border-radius: 10px;
-}
-
-@keyframes NavSelect {
-  0% {background-color: black;}
-  50% {background-color: grey;}
-  100% {background-color: black;}
-}
-
-.SeletoresDeNavegacao {
-  text-align: center;
-  font-size: 16px;
-  color: white;
-  background-color: black;
-  margin-top: 5px;
-  border-radius: 15px;
-}
-
-.SeletoresDeNavegacao:hover {
-  animation-name: NavSelect;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
 /* conteudo */
 /*--Titulo */
 #Banner{
