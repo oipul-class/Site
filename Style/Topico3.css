@@ -14,8 +14,9 @@
 /* regras globais */
 
 #body {
-  background-image: url();
+  background-image: url(../images/Topico5/blackWallpaper.jpg);
   background-size: cover;
+  background-attachment: fixed;
   background-repeat: none;
 }
 
@@ -27,7 +28,7 @@
 
 #image2{
     background-image: url(../images/fundo4.jpg);
-    background-position: center; 
+    background-position: center;
 }
 
 a {
@@ -42,7 +43,7 @@ a:visited, a:link, a:active {
 }
 
 h1{
-  
+
   font-size: 50px;
   font-weight: bold;
   text-align: center;
@@ -53,7 +54,7 @@ h1{
 h2{
   font-size: 30px;
   text-align: left;
-  color:white;  
+  color:white;
   border-bottom: 2px solid white;
   font-weight: bold;
   margin-bottom: 20px;
@@ -108,7 +109,7 @@ p{
         height: 310px;
         margin-bottom: 20px;
     }
-    
+
     #Header_Menus {
         height: 90px;
         width: 100%;
@@ -117,14 +118,14 @@ p{
     #Conteudo {
         justify-content: center;
     }
-    
+
 }
 
 #Header_logo {
     height: 156px;
     width: 50%;
     float: left;
-    clear: both; 
+    clear: both;
     padding-top: 10px;
 }
 
@@ -211,7 +212,7 @@ Valores:
     -webkit-text-stroke-color: rgba(0, 159, 187, 1);
     text-shadow: 10px 10px 75px rgba(100, 159, 187, 1);
 }
- 
+
 /*lists*/
 .li_ul{
     list-style-type: "-";
@@ -237,7 +238,7 @@ ul{
 }
 
 .images{
-    width: 33.3; 
+    width: 33.3;
 }
 /* conteudo */
 
@@ -254,7 +255,7 @@ ul{
     height: 200px;
     width: 750px;
     float: left;
-    clear: both; 
+    clear: both;
     padding-top: 10px;
 }
 
@@ -303,5 +304,5 @@ ul{
   border: solid 4px blue;
   cursor: pointer;
 }
-
+s
 
