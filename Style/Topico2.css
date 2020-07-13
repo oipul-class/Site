@@ -33,6 +33,9 @@ a:visited, a:link, a:active {
     width: inherit;
     height: inherit;
 }
+.Espacamento{
+    margin-top: 0px;
+}
 h1, h2{
   
   font-size: 50px;
@@ -171,7 +174,7 @@ p{
     margin-top: 20px;
 }
 #sobre {
-    height: 700px;
+    height: 750px;
     width: 1300px;
     background-color: #2d2d5c;
   }
@@ -680,12 +683,12 @@ p{
 	color: blue;
 }
 
-#Atualização {
+#Atualizacao {
 	width: 400px;
 	height: 500px;
 	background-color: #2d2d5c;
 	float: left;
-    margin-left: 30px;
+    margin-left: 20px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -706,15 +709,15 @@ p{
 }
 
 #Programas2 {
-	width: 55%;
+	width: 500px;
 	height: 500px;
 	float: left;
 	background-color: #2d2d5c;
 }
 
 #Programas2Texto {
-	width: 100%;
-	height: 40%;
+	width: 740px;
+	height: 200px;
 	padding-top: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
