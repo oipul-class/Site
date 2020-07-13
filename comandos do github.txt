@@ -28,6 +28,8 @@ git switch - troca de branchs
 
 git restore (arquivo) - restaura/baixar o arquivo de volta 
 
+git remote add (url) - adicionar um acesso ao reposítorio 
+
 -pra mandar arquivos
 
 1. git add (arquivo) 
