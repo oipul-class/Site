@@ -44,7 +44,7 @@ h1, h2{
   font-size: 50px;
   font-weight: bold;
   text-align: center;
-  color:white;
+  color:black;
   font-family: arial;
   letter-spacing: 2px;
 }
@@ -59,7 +59,7 @@ p{
 
   font-size: 20px;
 
-  font-family: arial;
+  font-family: verdana;
 
   text-align: justify;
 
@@ -402,7 +402,7 @@ p{
 #ModoGrafico{
     height: 600px;
     width: 1300px;
-    background-color:  #ffffff; 
+    background-color:  #000000; 
 }
 #ModoGraficoTexto {
     width: 30%;

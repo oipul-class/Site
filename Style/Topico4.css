@@ -65,7 +65,13 @@ li {
   font-family: Blocks;
   color: white;
 }
-
+.backgroundImg{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
 /* padrões */
 .Conteudo {
   width: 1300px;
@@ -166,9 +172,6 @@ background-color: rgb(95, 95, 95);
   background-image: url(../images/Topico4/Banner.jpg); 
   width: 100%;
   height: 600px;  
-  background-size: cover; 
-  background-repeat: no-repeat; 
-  background-attachment: fixed;
   margin-bottom: 50px;
 }
 
