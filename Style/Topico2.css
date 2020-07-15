@@ -14,10 +14,6 @@
 
 /* regras globais */
 
-#body {
-
-}
-
 a {
   text-decoration: none;
 }
@@ -28,6 +24,9 @@ a:visited, a:link, a:active {
 .FullIMG{
     width: inherit;
     height: inherit;
+}
+body{
+    background-color: #e0e0e0;
 }
 .backgroundImg{
     background-repeat: no-repeat;
@@ -56,15 +55,10 @@ h2{
 }
 
 p{
-
-  font-size: 20px;
-
-  font-family: verdana;
-
-  text-align: justify;
-
-  color: #000000;
-    
+    font-size: 19px;
+    font-family: verdana;
+    text-align: justify;
+    color: #000000;
     margin-top: 15px; 
 }
 
@@ -121,6 +115,7 @@ p{
     float: right;
     margin-top: 45px;
     border: solid 2px black;
+    border-radius: 15px;
 }
 
 #OnSite {
@@ -186,7 +181,8 @@ p{
 #sobre {
     height: 750px;
     width: 1300px;
-    background-color: #ffffff;
+    background-color: #e0e0e0;
+    margin-bottom: 50px;
   }
   /* Seção da caixa definição*/
   #CaixaDefinicao{
@@ -194,13 +190,17 @@ p{
     width:600px;
     height:600px;
     float: left;
-     margin-left: 20px;
+    margin-left: 20px;
   }
+
   #DefinicaoTexto{
     float: left;
     /* background-color: lightblue; */
     width: 300px;
     height:450px;
+  }
+  #DefinicaoTexto p{
+    font-size: 18px;
   }
   #DefinicaoImagem{
     float: left;
@@ -251,7 +251,8 @@ p{
   #LinhaConteudo2{
     height: 600px;
     width: 1300px;
-    background-color: #ffffff; 
+    background-color: #e0e0e0;
+      margin-bottom: 50px;
   }
   .Linha2Colunas{
     height: 500px;
@@ -266,7 +267,7 @@ p{
   .NavegacaoImagem{
     height: 100px;
     width: 100px;
-    background-color: #ffffff;
+    background-color: #e0e0e0;
     float: left; 
     margin-left: 70px;
   }
@@ -316,7 +317,7 @@ p{
   #Linha3{
     width: 1300px;
     height: 600px;
-    background-color: #ffffff;
+    background-color: #e0e0e0;
   }
   .ColunasLinha3{
     height: 550px;
@@ -375,7 +376,7 @@ p{
   #Linha4{
     width: 1300px;
     height: 600px;
-    background-color: #ffffff;
+    background-color: #e0e0e0;
   }
   #Linha4_Texto{
     float: left;
@@ -402,12 +403,16 @@ p{
 #ModoGrafico{
     height: 600px;
     width: 1300px;
+<<<<<<< HEAD
     background-color:  #000000; 
+=======
+    background-color: #e0e0e0; 
+>>>>>>> 55d88efe98a259e13fe743fa39ba209e2b04c402
 }
 #ModoGraficoTexto {
     width: 30%;
     height: 500px;
-    background-color: #ffffff;
+    background-color: #e0e0e0;
     padding-left: 60px;
     padding-right: 60px;
     clear: both;
@@ -437,7 +442,7 @@ p{
 #Linha6{
     width: 1300px;
     height: 600px;
-    background-color: #ffffff;
+    background-color: #e0e0e0;
 }
 #AreaDeTrabalho {
     width: 30%;
@@ -458,7 +463,7 @@ p{
 #Linha7{
     width: 1300px;
     height: 650px;
-    background-color: #ffffff;
+    background-color: #e0e0e0;
 }
 
 /* Trabalho com Janelas */
@@ -483,7 +488,7 @@ p{
 	width: 350px;
 	height: 600px;
 	float: left;
-	background-color: #ffffff;
+	background-color: #e0e0e0;
     padding-left:10px;
     padding-right:10px;
 }
@@ -498,7 +503,7 @@ p{
 	width: 1200px;
 	height: 100px;
 	padding-top: 15px;
-	background-color: #ffffff;
+	background-color: #e0e0e0;
 	clear: both;
 }
 
@@ -514,7 +519,7 @@ p{
 #Linha8{
     width: 1300px;
     height: 650px;
-    background-color: #ffffff;
+    background-color: #e0e0e0;
 }
 #Acessorios {
 	width: 600px;
@@ -524,10 +529,10 @@ p{
 }
 
 #Acessorios ul {
-	color: white;
+	color: black;
 	list-style: none;
 	text-align: center;
-	font-family: arial;
+	font-family: verdana;
 	font-size: 18px;
     text-align: left
 }
@@ -541,7 +546,7 @@ p{
 	width: 600px;
 	height: 600px;
 	margin-top: 10px;
-	background-color: #ffffff;
+	background-color: #e0e0e0;
 	float: right;
 }
 
@@ -565,7 +570,7 @@ p{
 #Linha9{
     width: 1300px;
     height: 800px;
-    background-color: #ffffff;
+    background-color: #e0e0e0;
     
 }
 #Linha9Coluna2{
@@ -601,7 +606,7 @@ p{
 #UsuariosEPermissoes {
 	width: 600px;
 	height: 100px;
-	background-color: #ffffff;
+	background-color: #e0e0e0;
 	float: left;
 }
 
@@ -613,7 +618,7 @@ p{
 	width:  290px;
     margin-right: 10px;
 	height: 300px;
-	background-color: #ffffff;
+	background-color: #e0e0e0;
 	float: left;
 }
 
@@ -633,7 +638,7 @@ p{
 	padding-right: 40px;
 	padding-top: 10px;
 	margin-top: 10px;
-	background-color: #ffffff;
+	background-color: #e0e0e0;
 	clear: both;
 	float: left;
 }
@@ -652,7 +657,7 @@ p{
 	padding-left: 25px;
 	padding-right: 20px;
 	margin-top: 10px;
-	background-color: #ffffff;
+	background-color: #e0e0e0;
 	float: right;
 }
 
@@ -661,8 +666,8 @@ p{
 }
 
 #InstalacaoMaquinaVirtual ol {
-	color: white;
-	font-family: arial;
+	color: black;
+	font-family: verdana;
 }
 
 #InstalacaoMaquinaVirtual h2 {
@@ -671,12 +676,12 @@ p{
 #Linha10{
     width: 1300px;
     height: 600px;
-    background-color: #ffffff;
+    background-color: #e0e0e0;
 }
 #Linha11{
     width: 1300px;
     height: 500px;
-    background-color: #ffffff;
+    background-color: #e0e0e0;
 }
 #Pacotes {
 	width: 400px;
@@ -696,7 +701,7 @@ p{
 #Atualizacao {
 	width: 400px;
 	height: 500px;
-	background-color: #ffffff;
+	background-color: #e0e0e0;
 	float: left;
     margin-left: 20px;
     padding-left: 10px;
@@ -710,19 +715,19 @@ p{
     padding-left: 20px;
     padding-right: 20px; 
 	float: left;
-	background-color: #ffffff;
+	background-color: #e0e0e0;
 }
 #Linha12{
     width: 1300px;
     height: 500px;
-	background-color: #ffffff;
+	background-color: #e0e0e0;
 }
 
 #Programas2 {
 	width: 500px;
 	height: 500px;
 	float: left;
-	background-color: #ffffff;
+	background-color: #e0e0e0;
 }
 
 #Programas2Texto {
@@ -764,7 +769,7 @@ p{
 #Rodape {
     width: 100%;
     height: 200px;
-    background-color:  rgba(38, 80, 218, 0.9);
+    background-color: rgba(0, 0, 0, 0.9);
 
     clear: both;
 }
