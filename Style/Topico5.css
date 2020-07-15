@@ -8,9 +8,10 @@
 /* fonts */
 
 @font-face{
-  font-family: Blocks;
-  src: url(../Fonts/Topico1/VCR.ttf);
+  font-family: SoutherlandSerif;
+  src: url(../Fonts/Topico5/NSS.ttf);
 }
+
 
 /* regras globais */
 
@@ -29,25 +30,25 @@ a:visited, a:link, a:active {
 }
 
 h1, h2{
-  
+
   font-size: 50px;
   font-weight: bold;
   text-align: center;
   color:white;
-  font-family: arial;
+  font-family: SoutherlandSerif, verdana, arial;
 }
 
 h2{
-  
+
   font-size: 30px;
-  
+
 }
 
 p{
 
   font-size: 20px;
 
-  font-family: arial;
+  font-family: verdana,arial;
 
   text-align: center;
 
@@ -77,6 +78,11 @@ p{
     margin-right: auto;
 }
 
+.CenterImage {
+
+  text-align: center;
+}
+
 /*--Partes do site*/
 
 /* -Header- */
@@ -84,14 +90,14 @@ p{
 #Header {
     width: 100%;
     height: 160px;
-    background-color: rgba(0, 159, 187, 0.7);
+    background-color: rgba(16,110,63);
 }
 
 #Header_logo {
     height: 156px;
     width: 710px;
     float: left;
-    clear: both; 
+    clear: both;
     padding-top: 10px;
 }
 
@@ -165,6 +171,20 @@ p{
 
 }
 
+#banner{
+
+  width: 100%;
+  height: 600px;
+  margin-top: 10px;
+  background-image: url(../images/Topico5/excelbanner.jpg);
+
+  background-attachment: fixed;
+
+  background-size: 100% 600px;
+
+}
+
+
 #CriacaoDePlanilhas {
 
   width: 65%;
@@ -195,7 +215,7 @@ p{
   height: 400px;
   padding-top: 20px;
   float: right;
- 
+
 }
 
 #FormatacaoDeCelulasImagem {
@@ -205,7 +225,7 @@ p{
   padding-top: 20px;
   clear: both;
   float: left;
- 
+
 
 }
 #FormatacaoDeCelulas {
@@ -217,7 +237,7 @@ p{
   padding-top: 20px;
   padding-left: 20px;
   float: right;
-  
+
 }
 
 #FormatacaoDeCelulas p {
@@ -243,7 +263,7 @@ p{
   clear: both;
   float: left;
   padding-right: 60px;
- 
+
 
 }
 
@@ -260,7 +280,7 @@ p{
   height: 550px;
   padding-top: 20px;
   float: right;
-  
+
 
 }
 
@@ -268,9 +288,9 @@ p{
 
   width: 100%;
   height: 200px;
-  padding-top: 20px;
+  padding-top: 10px;
   clear:both;
-  
+
 }
 
 #Numeros {
@@ -297,7 +317,7 @@ float: left;
   width: 45%;
   height: 450px;
   padding-top: 20px;
- 
+
   float: right;
 }
 
@@ -307,11 +327,11 @@ float: left;
   width: 100%;
   height: 250px;
   background-color: RGBA(63,191,89,0.5);
-  border: 1px solid black;  
+  border: 1px solid black;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
-  
+
 
 }
 
@@ -326,7 +346,7 @@ float: left;
 #TextosImagem {
 
   width: 50%;
-  height: 450px;
+  height: 500px;
   padding-top: 20px;
   float: left;
 
@@ -336,24 +356,24 @@ float: left;
 #TextosImagem2 {
 
   width: 50%;
-  height: 450px;
+  height: 500px;
   padding-top: 20px;
   float: right;
-  
+
 
 }
 
 #Formulas {
 
   width: 100%;
-  height: 200px;
+  height: 250px;
   background-color: RGBA(63,191,89,0.5);
   border: 1px solid black;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-left: 50px;
   padding-right: 50px;
   clear: both;
-  
+
 
 }
 
@@ -372,7 +392,7 @@ float: left;
 #Funcoes {
 
   width: 100%;
-  height: 300px;
+  height: 400px;
   background-color: RGBA(63,191,89,0.5);
   border: 1px solid black;
   margin-top: 10px;
@@ -429,9 +449,9 @@ padding-top: 20px;
 #CondicionaisImagem {
 
   width: 100%;
-  height: 200px;
+  height: 300px;
   padding-top: 20px;
-  
+
 
 }
 
@@ -467,7 +487,7 @@ padding-top: 20px;
 
   width: 100%;
   height: 350px;
-  
+
 
 }
 
@@ -480,11 +500,11 @@ padding-top: 20px;
 }
 
 #GraficoDeBarra {
-  
+
   width: 100%;
   height: 420px;
   margin-top: 20px;
-  
+
 
 }
 
@@ -493,14 +513,14 @@ padding-top: 20px;
   width: 100%;
   height: 500px;
   margin-top: 20px;
- 
-  
+
+
 }
 
 #Impressao {
 
   width: 100%;
-  height: 200px;
+  height: 250px;
   background-color: RGBA(63,191,89,0.5);
   border: 1px solid black;
   margin-top: 10px;
@@ -538,7 +558,7 @@ padding-top: 20px;
     height: 200px;
     width: 750px;
     float: left;
-    clear: both; 
+    clear: both;
     padding-top: 10px;
 }
 
