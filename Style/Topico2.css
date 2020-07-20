@@ -105,7 +105,11 @@ li {
 }
 
 #Header_Logo {
+<<<<<<< HEAD
     height: 180px;
+=======
+    height: 156px;
+>>>>>>> a51c53f0d3d4cab3328027001b6071d1f8429b5f
     width: 510px;
     float: left;
 }
@@ -113,7 +117,7 @@ li {
 #Header_LogoIMG {
     height: 140px;
     width: 350px;
-    margin-left: 40px;
+    margin-left: 150px;
 }
 
 #Header_Menus {
