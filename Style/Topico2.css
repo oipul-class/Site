@@ -105,10 +105,9 @@ li {
 }
 
 #Header_logo {
-    height: 156px;
+    height: 180px;
     width: 510px;
     float: left;
-    padding-top: 10px;
 }
 
 #Header_LogoIMG {
@@ -119,9 +118,8 @@ li {
 
 #Header_Menus {
     height: 90px;
-    width: 590px;
+    width: 600px;
     float: right;
-    margin-top: 45px;
     border: solid 2px black;
     border-radius: 15px;
 }
@@ -209,7 +207,6 @@ li {
     width: 100%;
     height: 600px;
     background-color: RGBA(13, 196, 217,0.7);
-    /*Coloca imagem de fundo*/
     background-image: url(../images/Topico2/Wallpaper.jpg);
     padding-top: 350px;
 }
@@ -274,13 +271,13 @@ li {
   #HistoriaTexto{
     float: left;
     height: 540px;
-    width:350px;
+    width:  350px;
     /* background-color: cyan; */
   } 
   #HistoriaImagens{
     float: left;
     height: 540px;
-    width:250px;
+    width:  250px;
     /* background-color: chartreuse; */
   }
   #HistoriaImagens img{
